@@ -1,0 +1,52 @@
+ body {
+        background-color: #dbdbdb;
+        font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+       }
+        h1 {
+            color: rgb(70, 208, 98);
+            text-align: left;
+            letter-spacing: 3px;
+            font-size: 2.8em;
+            font-weight: 900;
+            text-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), 0 0 20px rgba(255, 81, 0, 0.3);
+            padding: 30px 20px;
+            margin: 20px 0;
+            text-transform: uppercase;
+            background: linear-gradient(135deg, rgba(255, 81, 0, 0.05) 0%, rgba(255, 81, 0, 0) 100%);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        
+        h1:hover {
+            transform: translateY(-5px);
+            text-shadow: 0 8px 25px rgba(0, 0, 0, 0.3), 0 0 30px rgba(255, 81, 0, 0.5);
+        }
+        h2 {
+            color: green;
+            padding-bottom: 10px;
+            letter-spacing: 1.5px;
+        }
+        p {
+            color: rgb(41, 27, 27);
+            font-size: larger;
+            text-align: justify;
+            text-indent: 2px;
+            font-variant: small-caps;
+            font-style: italic;
+
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 30px 0;
+        }
+
+        .video-container iframe {
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            
+        }

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem dinamica</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>tente abrir o site em diferentes dispositivos ou simplesmente aumente e diminua o seu navegador</p>
+
+  <picture>
+    <source media="(max-width: 750px)" srcset="imagens-responsivas/imagem-mobile.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens-responsivas/imagem-tablet.png" type="image/png">
+    <img src="imagens-responsivas/imagem-desktop.png" alt="imagem flexivel">
+  </picture>
+  <h2>Agora chegou a hora de ouvir uma sonora meu chegado</h2>
+  <p>vamos la reproduzir essa genesia</p>
+  <audio src="media/smack-you.mp3" controls autoplay></audio>
+    
+</body>
+</html>

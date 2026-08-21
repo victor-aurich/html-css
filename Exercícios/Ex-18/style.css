@@ -1,0 +1,15 @@
+@charset "UTF-8";
+nav {
+    background-color: aqua;
+    padding: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.352);
+    border-radius: 2px;
+   
+    
+}
+a {
+    text-decoration: none;
+    text-align: center;
+
+
+}
