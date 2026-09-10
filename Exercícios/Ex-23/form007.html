@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                    <option value="Escolha">--Escolha--</option checked>
+                <optgroup label="Melhores Estados">
+                    <option value="SC">Santa e Bela Catarina</option>
+                    <option value="SP">Sao Paulo</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="PR">Paraná</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                </optgroup>
+                <optgroup label="Piores Estados">
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissao</label>
+            <input type="text" name="prof" id="iprof" list="ilist">
+            <datalist id="ilist">
+                <option value="Marceneiro">Marceneiro</option>
+                <option value="Padeiro">Padeiro</option>
+                <option value="Jogador">Jogador</option>
+
+            </datalist>
+        </p>
+
+        <p>
+            <label for="texti">Mensagem</label> <br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="sua mensagem aqui"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+        
+    </form>
+    
+</body>
+</html>

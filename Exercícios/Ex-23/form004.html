@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de form</title>
+    <style>
+        fieldset {
+            border-radius: 20px;
+            border: 5px solid rgba(0, 0, 0, 0.172);
+            background-color: azure;
+        }
+
+        input {
+            background-color: rgba(137, 43, 226, 0.22);
+            border-style:inset;
+        }
+
+        legend {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="inome">Nome</label> <input type="text" name="nome" id="inome" required maxlength="30" minlength="5">
+            </p>
+            <p>
+                <label for="iemail">Email</label> <input type="email" name="email" id="iemail" required>
+            </p>
+            <p>
+                <label for="itel">Telefone</label> <input type="tel" name="tel" id="itel" autocomplete="tel" >
+            </p>
+        </fieldset>
+
+        <!-- Estudar mais sobre RegEx-->
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
